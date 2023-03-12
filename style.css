@@ -1,0 +1,34 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: rgb(36, 35, 35);
+  background-color: bisque;
+}
+.faq {
+  max-width: 500px;
+  margin: 20px auto;
+}
+.faq-item {
+  border: 1px solid red;
+}
+.faq-title {
+  padding: 10px, 15px;
+  display: block;
+  cursor: pointer;
+}
+.faq-input {
+  -webkit-appearance: none;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+.faq-text {
+  display: none;
+}
+.faq-input:hover + .faq-text {
+  display: block;
+}
+.faq-input:checked + .faq-text {
+  display: block;
+}
