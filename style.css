@@ -6,7 +6,11 @@ body {
   background-color: bisque;
 }
 .faq {
-  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 1080px;
+  width: 90%;
   margin: 20px auto;
 }
 .faq-item {
