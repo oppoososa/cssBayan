@@ -42,8 +42,10 @@ p {
 .faq-input:hover + .faq-text {
   display: block;
 }
+
 .faq-input:checked + .faq-text {
   display: block;
+  background-color: rgb(223, 226, 209);
 }
 @media (max-width: 820px) {
   p {
