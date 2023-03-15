@@ -48,18 +48,26 @@ p {
   position: absolute;
 }
 .faq-text {
-  display: none;
+  display: block;
   padding-left: 2%;
   padding-right: 2%;
+  opacity: 0;
+  width: 0px;
+  height: 0px;
 }
 .faq-input:hover + .faq-text {
   display: block;
+  opacity: 1;
+  transition: 1s;
+  width: auto;
+  height: auto;
 }
 
 .faq-input:checked + .faq-text {
   display: block;
   background-color: rgb(223, 226, 209);
 }
+
 @media (max-width: 1920px) {
   p {
     max-width: 1920px;
